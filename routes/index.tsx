@@ -46,11 +46,12 @@ export default function ChartPricePage(props: PageProps) {
   return (
     <>
       <h1>Method : {method}</h1>
+      See log also
       <FakeForm></FakeForm>
       <form method="post">
         <button type="submit"
         className="box-border w-full text-primary shadow-gray-700 hover:bg-green-100 inline-flex h-[35px] items-center justify-center rounded-[4px] bg-white px-[15px] font-medium leading-none shadow-[0_2px_10px] focus:shadow-[0_0_0_2px] focus:shadow-black focus:outline-none mt-[10px]">
-          Submit in Route : Render work
+          Submit in Route : Render works
         </button>
       </form>
       <div class="p-4 mx-auto max-w-screen-md">
